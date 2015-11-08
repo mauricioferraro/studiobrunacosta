@@ -12,7 +12,7 @@ public class Conecta {
 	
 	try {
 		
-		sessao =  HibernateUtil.getSession();
+		sessao =  HibernateUtil.getSession().openSession();
 		
 		System.out.println("Conectou !"); 
 		
