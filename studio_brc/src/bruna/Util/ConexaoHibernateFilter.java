@@ -17,47 +17,37 @@ import javax.servlet.ServletResponse;
 public class ConexaoHibernateFilter implements Filter{
 	
 	private SessionFactory sf;
-	
-	
 
-	@Override
+	
 	public void destroy() {
-		// TODO Auto-generated method stub
-		
 	}
 
-	@Override
-	public void doFilter(ServletRequest serveletFilter, ServletResponse serveletResponse, FilterChain chain)
-			throws IOException, ServletException {
+	
+	public void doFilter(ServletRequest servletFilter, ServletResponse servletResponse,
+			FilterChain chain) throws IOException, ServletException {
 		
 		try {
-			
 			this.sf.getCurrentSession().beginTransaction();
-			chain.doFilter(serveletFilter,serveletResponse);
+			chain.doFilter(servletFilter, servletResponse);
 			this.sf.getCurrentSession().getTransaction().commit();
 			this.sf.getCurrentSession().close();
-			
 		} catch (Throwable ex) {
 			
-			try {
-				
+			//try {
+				//if(this.sf.getCurrentSession().getTransaction().isActive()){
 					this.sf.getCurrentSession().getTransaction().rollback();
+				//}
+			//} catch (Throwable t) {
+			//	t.printStackTrace();
+			//}
 			
-				
-			} catch (Exception t) {
-			t.printStackTrace();
-			}
+			throw new ServletException(ex.getMessage());
 		}
-		
-		throw new ServletException();
-		 	
+	
 	}
 
-	@Override
 	public void init(FilterConfig conf) throws ServletException {
-		
 		this.sf = HibernateUtil.getSession();
-		
 	}
 
 }
