@@ -49,7 +49,6 @@ public class ProdutoTeste {
 			p.setEstoque(20);
 			p.setUnidade("quilo");
 			p.setValor(10.90f);
-			p.setId(1);
 			
 			abreConexao();
 			this.Sessao.save(p);

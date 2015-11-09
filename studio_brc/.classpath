@@ -16,5 +16,33 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/common-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/el-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/el-impl-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/facelets-taglib-jsf20-spring-3-0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jcl-over-slf4j-1.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jsf-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jsf-tlds.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/mysql-connector-java-5.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/primefaces-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/slf4j-simple-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mauricio.ferraro/Desktop/Libs/Libs/taglib-core-0.4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
